@@ -1,1 +1,7 @@
-import React from 'react'; import ReactDOM from 'react-dom/client'; import App from './App'; const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<App />);
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const App = () => <h1>Hello Brewtrip</h1>;
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
